@@ -1,0 +1,91 @@
+INSERT INTO havaalani.paketdetay (PAKET_ADI, KOLTUK_SECIMI, YEMEK_SECIMI, BAGAJ_HAKKI, HAVAALANI_LOUNGE_ERISIM, DIGER_AVANTAJLAR) VALUES
+('First Class', 'Tamamen Düzleşebilen Koltuklar', 'Özel Menü Seçenekleri', 'Geniş Bagaj Hakkı', 'Evet', 'Özel Uçuş Görevlisi ve Diğer Ayrıcalıklar'),
+('Business Class', 'Recliner Koltuklar', 'Özel Yemek Servisi', 'Geniş Bagaj Hakkı', 'Evet', 'Özel Havaalanı Lounge Erişimi ve Diğer Ayrıcalıklar'),
+('Premium Economy Class', 'Daha Geniş Koltuklar', 'Gelişmiş Yemek Seçenekleri', 'Geniş Bagaj Hakkı', 'Evet', 'Daha Fazla Bacak Mesafesi ve Diğer Ayrıcalıklar'),
+('Economy Class', 'Standart Koltuklar', 'Standart İkramlar', 'Sınırlı Bagaj Hakkı', 'Hayır', 'Standart Ekonomi Hizmetleri'),
+('Basic Economy Class', 'Standart Koltuklar', 'Standart İkramlar', 'Sınırlı Bagaj Hakkı', 'Hayır', 'Temel Ekonomi Hizmetleri');
+
+
+
+-- Örnek kayıtları ekle
+INSERT INTO havaalani.ucak_bilgi (UCAK_ID, UCAK_MARKA, UCAK_MODEL, YOLCU_KAPASITESI, YAKIT_TURU)
+VALUES
+(1, 'Airbus', 'A320', 150, 'Jet-A'),
+(2, 'Boeing', '737', 180, 'Jet-A'),
+(3, 'Embraer', 'E190', 120, 'Jet-A'),
+(4, 'Airbus', 'A330', 220, 'Jet-A'),
+(5, 'Boeing', '787', 200, 'Jet-A'),
+(6, 'Embraer', 'E195', 160, 'Jet-A'),
+(7, 'Airbus', 'A321', 190, 'Jet-A'),
+(8, 'Boeing', '777', 230, 'Jet-A'),
+(9, 'Embraer', 'E175', 140, 'Jet-A'),
+(10, 'Airbus', 'A350', 240, 'Jet-A'),
+(11, 'Boeing', '767', 210, 'Jet-A'),
+(12, 'Embraer', 'E190-E2', 180, 'Jet-A'),
+(13, 'Airbus', 'A319neo', 200, 'Jet-A'),
+(14, 'Boeing', '777X', 250, 'Jet-A'),
+(15, 'Embraer', 'E195-E2', 220, 'Jet-A'),
+(16, 'Airbus', 'A320neo', 170, 'Jet-A'),
+(17, 'Boeing', '737 MAX 8', 190, 'Jet-A'),
+(18, 'Embraer', 'E170-E2', 160, 'Jet-A'),
+(19, 'Airbus', 'A321XLR', 180, 'Jet-A'),
+(20, 'Boeing', '747', 210, 'Jet-A');
+
+
+
+INSERT INTO havaalani.ucaklar (MARKA_ID, KUYRUK_NUMARASI, KAPASITE, UCUS_MENZILI, MAKS_HIZ, ILK_UCUS_TARIHI, EMEKLILIK_TARIHI)
+VALUES
+(1, 'TK123', 150, 3000, 900, '2022-01-01', NULL),
+(2, 'PG456', 189, 4000, 850, '2022-02-15', NULL),
+(3, 'EJ789', 120, 2500, 800, '2022-03-10', NULL),
+(1, 'TK234', 200, 5000, 950, '2022-04-05', NULL),
+(2, 'PG567', 160, 3500, 920, '2022-05-01', NULL),
+(3, 'EJ890', 130, 2800, 830, '2022-06-15', NULL),
+(1, 'TK345', 170, 4500, 890, '2022-07-01', NULL),
+(2, 'PG678', 220, 6000, 980, '2022-08-01', NULL),
+(3, 'EJ901', 140, 2700, 810, '2022-09-15', NULL),
+(1, 'TK456', 190, 5200, 940, '2022-10-01', NULL),
+(2, 'PG789', 180, 4700, 910, '2022-11-01', NULL),
+(3, 'EJ012', 150, 3000, 880, '2022-12-01', NULL),
+(1, 'TK567', 210, 5800, 960, '2023-01-01', NULL),
+(2, 'PG890', 200, 5300, 930, '2023-02-01', NULL),
+(3, 'EJ123', 160, 3500, 860, '2023-03-01', NULL),
+(1, 'TK678', 230, 6200, 1000, '2023-04-01', NULL),
+(2, 'PG901', 210, 5700, 970, '2023-05-01', NULL),
+(3, 'EJ234', 170, 3800, 890, '2023-06-01', NULL),
+(1, 'TK789', 240, 6500, 1020, '2023-07-01', NULL),
+(2, 'PG012', 220, 6000, 990, '2023-08-01', NULL);
+
+
+INSERT INTO havaalani.kargo (GONDERICI_ISMI, ALICI_ISMI, KARGO_ADI, KARGO_AGIRLIK, KARGO_ICERIK)
+VALUES
+('Ahmet Yılmaz', 'Ayşe Demir', 'K001', 25, 'Tekstil malzemeleri'),
+('Mehmet Çelik', 'Fatma Kaya', 'K002', 30, 'Elektronik ürünler'),
+('Ali Demir', 'Zeynep Yılmaz', 'K003', 15, 'Kitaplar'),
+('Ayşe Kaya', 'Can Karahan', 'K004', 40, 'Gıda ürünleri'),
+('Ahmet Yılmaz', 'Yasin Kaya', 'K005', 20, 'Kozmetik ürünler'),
+('Selin Arıkan', 'Mehmet Yıldırım', 'K006', 35, 'Ev eşyaları'),
+('Yasin Kaya', 'Ahmet Yılmaz', 'K007', 18, 'Teknolojik aletler'),
+('Zeynep Yılmaz', 'Can Karahan', 'K008', 22, 'Oyuncaklar'),
+('Cemal Türk', 'Selin Arıkan', 'K009', 28, 'Spor malzemeleri'),
+('Gül Karahan', 'Mehmet Çelik', 'K010', 23, 'Mücevherat'),
+('Berkay Yıldırım', 'Cemal Türk', 'K011', 19, 'Otomobil parçaları'),
+('Yasemin Arıkan', 'Gül Karahan', 'K012', 26, 'Giyim ürünleri'),
+('Can Karahan', 'Selin Arıkan', 'K013', 33, 'Baharatlar'),
+('Buse Türk', 'Berkay Yıldırım', 'K014', 17, 'Makine parçaları'),
+('Mert Kaya', 'Cemal Türk', 'K015', 31, 'Ev bitkileri'),
+('Deniz Arıkan', 'Yasin Kaya', 'K016', 29, 'Ofis malzemeleri'),
+('Yücel Türk', 'Ayşe Kaya', 'K017', 24, 'Mobilya ürünleri'),
+('Pelin Yıldırım', 'Mehmet Çelik', 'K018', 37, 'Aksesuarlar'),
+('Cansu Yıldırım', 'Berkay Yıldırım', 'K019', 21, 'Güç kaynakları'),
+('Furkan Yılmaz', 'Selin Arıkan', 'K020', 27, 'Fotoğraf makineleri'),
+('Elif Yıldırım', 'Cansu Yıldırım', 'K021', 16, 'Cep telefonları'),
+('Kaan Türk', 'Elif Yıldırım', 'K022', 38, 'Otomobil lastikleri'),
+('Burak Arıkan', 'Furkan Yılmaz', 'K023', 32, 'Giyim ürünleri'),
+('Simge Yılmaz', 'Cansu Yıldırım', 'K024', 14, 'Ev temizlik malzemeleri'),
+('Selim Arıkan', 'Burak Arıkan', 'K025', 23, 'Oyun konsolları'),
+('Arda Yılmaz', 'Selin Arıkan', 'K026', 19, 'Müzik aletleri'),
+('Aysu Türk', 'Deniz Arıkan', 'K027', 27, 'Ayakkabılar'),
+('Kerem Kaya', 'Yasemin Arıkan', 'K028', 35, 'Gıda ürünleri'),
+('Ezgi Yıldırım', 'Mert Kaya', 'K029', 20, 'Hediye paketleri'),
+('İrem Türk', 'Kaan Türk', 'K030', 25, 'Oyun hamurları');

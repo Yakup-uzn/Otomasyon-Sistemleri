@@ -1,0 +1,18 @@
+INSERT INTO personelpozisyonu (POZISYON_ADI,MAAS_ARALIGI,ACIKLAMA) VALUES 
+
+('Pilot', '10.000 TL - 50.000 TL', 'Uçakları uçuran ve güvenli iniş-kalkış sağlayan profesyonel pilotlar.'),
+('Yardımcı Pilot', '5.000 TL - 20.000 TL', 'Pilotlara yardımcı olan ve uçuş sırasında görev alan yardımcı pilotlar.'),
+('Kabin Memuru (Hostes),', '3.000 TL - 10.000 TL', 'Uçuş sırasında yolculara hizmet veren ve uçuş güvenliğini sağlayan kabin memurları.'),
+('Uçak Bakım Teknisyeni', '3.500 TL - 12.000 TL', 'Uçakların bakım ve onarımlarını gerçekleştiren teknisyenler.'),
+('Havaalanı Yöneticisi', '8.000 TL - 25.000 TL', 'Havaalanı operasyonlarını yöneten, planlama ve koordinasyonu sağlayan yöneticiler.'),
+('Gümrük Memuru', '3.000 TL - 9.000 TL', 'Havaalanında gümrük işlemlerini yöneten ve denetleyen görevliler.'),
+('Bagaj Memuru', '2.500 TL - 7.000 TL', 'Yolcuların bagajlarını taşıyan ve dağıtan havaalanı personeli.'),
+('Güvenlik Yöneticisi', '6.000 TL - 18.000 TL', 'Havaalanında güvenlik operasyonlarını yöneten ve denetleyen yöneticiler.'),
+('Hava Trafik Kontrol Kulesi Operatörü', '5.000 TL - 15.000 TL', 'Uçakların iniş-kalkışını ve hava trafiğini yöneten kontrol kulesi operatörleri.'),
+('Yer Hizmetleri Memuru', '3.000 TL - 8.000 TL', 'Uçağın park edilmesi, yakıt ikmali gibi yer hizmetlerini sağlayan personel.'),
+('Hava Trafik Kontrolörü', '5.000 TL - 15.000 TL', 'Hava trafik kontrolörleri, uçuş trafiğini düzenler, iniş ve kalkışları koordine eder, hava güvenliğini sağlar.'),
+('Güvenlik Görevlisi', '2.500 TL - 7.000 TL', 'Havaalanı güvenlik görevlileri, terminalde ve pist çevresinde güvenliği sağlar, yolcuların ve bagajın kontrolünü yapar.'),
+('Check-in Memuru', '2.000 TL - 6.000 TL', 'Check-in memurları, yolcuların kayıt işlemlerini yönetir, bilet kontrolü yapar ve bagaj işlemlerini gerçekleştirir.'),
+('Yolcu Hizmetleri Görevlisi', '2.500 TL - 8.000 TL', 'Yolcu hizmetleri görevlileri, yolculara yardımcı olur, sorularını yanıtlar ve genel müşteri hizmetleri sağlar.'),
+('Havaalanı Mühendisi', '4.000 TL - 12.000 TL', 'Havaalanı mühendisleri, altyapı projelerini yönetir, bakım ve onarım süreçlerini denetler ve teknik sorunları çözer.'),
+('Havaalanı İletişim Memuru', '3.000 TL - 8.000 TL', 'İletişim memurları, havaalanı ile ilgili duyuruları yönetir, basın ilişkilerini sürdürür ve halkla ilişkiler görevlerini yerine getirir.'),
